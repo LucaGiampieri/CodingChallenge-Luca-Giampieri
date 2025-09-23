@@ -1,0 +1,135 @@
+/*Reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Utils*/
+
+.flex{
+    display: flex;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: rgb(0, 220, 0);
+    font-size: 48px;
+    padding-top: 10px;
+}
+
+ul{
+    list-style: none;
+}
+
+h2{
+    color: white;
+    font-size: 36px;
+    margin-top: 30px;
+    padding-left: 5px;
+}
+
+p{
+    color: white;
+    font-size: 24px;
+    margin-top: 10px; 
+}
+
+/*Box*/
+
+.box{
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    flex-basis: 1500px;
+    border-radius: 15px;
+    padding: 150px 0;
+}
+
+/*Header*/
+
+.jumbotron{
+    flex-direction: column;
+    align-items: center;
+}
+
+#image{
+    height: 150px;
+}
+
+/*Navbar*/
+
+.navbar{
+    flex-basis: 100%;
+    background-color: rgb(0, 220, 0);
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+a{
+    border-radius: 3px;
+    font-size: 16px;
+    transition: 0.3s; 
+    background-color: white;
+    padding: 2px 8px;
+    border: 1px solid black;
+    color: black;
+    text-decoration: none;  
+}
+
+a:hover{
+    font-size: 20px;
+}
+
+/*Main*/
+
+.bar{
+    height: 35px;
+    width: 420px;
+    border-radius: 8px;
+    font-size: 0px;
+    font-weight: 900;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.top{
+    background-color:rgb(244, 181, 84);
+    width: 420px;
+}
+    
+.mid{
+    background-color: rgb(30, 195, 30);
+    width: 672px;
+}
+
+.bot{
+    background-color: rgb(190, 65, 64);
+    width: 168px;
+}
+
+.bar:hover{
+    font-size: 25px;
+}
