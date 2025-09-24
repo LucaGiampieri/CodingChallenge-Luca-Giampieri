@@ -21,7 +21,7 @@ body{
     margin: 0;
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(../img/background.jpg);
+    background-image: url(background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -132,4 +132,5 @@ a:hover{
 
 .bar:hover{
     font-size: 25px;
+
 }
